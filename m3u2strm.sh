@@ -110,7 +110,6 @@ start () {
 	php -f "$currentdir/m3u2strm.php" filename=$filename directory=$directory > "$currentdir/log.log"
 	wait
 	printf "\e[1;34m All done! \n"
-	sleep 20
 }
 
 stop () {
