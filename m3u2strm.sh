@@ -14,7 +14,7 @@ dependencies () {
 	}
 	# Check if CURL is installed
 	command -v curl > /dev/null 2>&1 || { 
-		echo >&2 "CURL is required! Please install PHP first and try again."; 
+		echo >&2 "CURL is required! Please install CURL first and try again."; 
 		exit 1; 
 	}
 }
